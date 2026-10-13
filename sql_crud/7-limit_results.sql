@@ -4,6 +4,6 @@ SELECT
 FROM
     books
 ORDER BY
-    price DESC
+    price ASC
 LIMIT
     3
