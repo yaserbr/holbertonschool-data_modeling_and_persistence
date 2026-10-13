@@ -3,5 +3,5 @@ UPDATE
 SET
     price = price * 0.90
 WHERE
-    genre = 'tech'
+    genre = 'Tech'
     AND stock > 5
