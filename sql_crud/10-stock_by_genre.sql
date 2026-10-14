@@ -1,6 +1,6 @@
 SELECT
     genre,
-    count(stock)
+    SUM(stock)
 FROM
     books
 group by
