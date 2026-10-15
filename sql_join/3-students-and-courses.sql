@@ -6,4 +6,4 @@ FROM
     INNER JOIN students ON students.id = enrollments.student_id
     INNER JOIN courses ON courses.id = enrollments.course_id
 ORDER BY
-    students.name
+    students.name ASC, courses.title ASC
